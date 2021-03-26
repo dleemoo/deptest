@@ -10,3 +10,8 @@ updates:
     schedule:
       interval: "daily"
       time: "18:03"
+  - package-ecosystem: "bundler" # See documentation for possible values
+    directory: "/engines/bla" # Location of package manifests
+    schedule:
+      interval: "daily"
+      time: "18:06"
